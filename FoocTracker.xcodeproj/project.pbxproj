@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE0632581D14A29B00EE882D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0632571D14A29B00EE882D /* AppDelegate.swift */; };
+		EE06325A1D14A29B00EE882D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0632591D14A29B00EE882D /* ViewController.swift */; };
+		EE06325D1D14A29B00EE882D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE06325B1D14A29B00EE882D /* Main.storyboard */; };
+		EE06325F1D14A29B00EE882D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE06325E1D14A29B00EE882D /* Assets.xcassets */; };
+		EE0632621D14A29B00EE882D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0632601D14A29B00EE882D /* LaunchScreen.storyboard */; };
+		EE06326D1D14A29C00EE882D /* FoocTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE06326C1D14A29C00EE882D /* FoocTrackerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE0632691D14A29C00EE882D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE06324C1D14A29B00EE882D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE0632531D14A29B00EE882D;
+			remoteInfo = FoocTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE0632541D14A29B00EE882D /* FoocTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoocTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0632571D14A29B00EE882D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE0632591D14A29B00EE882D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE06325C1D14A29B00EE882D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE06325E1D14A29B00EE882D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0632611D14A29B00EE882D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE0632631D14A29B00EE882D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0632681D14A29C00EE882D /* FoocTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoocTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE06326C1D14A29C00EE882D /* FoocTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoocTrackerTests.swift; sourceTree = "<group>"; };
+		EE06326E1D14A29C00EE882D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE0632511D14A29B00EE882D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0632651D14A29C00EE882D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE06324B1D14A29B00EE882D = {
+			isa = PBXGroup;
+			children = (
+				EE0632561D14A29B00EE882D /* FoocTracker */,
+				EE06326B1D14A29C00EE882D /* FoocTrackerTests */,
+				EE0632551D14A29B00EE882D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0632551D14A29B00EE882D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE0632541D14A29B00EE882D /* FoocTracker.app */,
+				EE0632681D14A29C00EE882D /* FoocTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE0632561D14A29B00EE882D /* FoocTracker */ = {
+			isa = PBXGroup;
+			children = (
+				EE0632571D14A29B00EE882D /* AppDelegate.swift */,
+				EE0632591D14A29B00EE882D /* ViewController.swift */,
+				EE06325B1D14A29B00EE882D /* Main.storyboard */,
+				EE06325E1D14A29B00EE882D /* Assets.xcassets */,
+				EE0632601D14A29B00EE882D /* LaunchScreen.storyboard */,
+				EE0632631D14A29B00EE882D /* Info.plist */,
+			);
+			path = FoocTracker;
+			sourceTree = "<group>";
+		};
+		EE06326B1D14A29C00EE882D /* FoocTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE06326C1D14A29C00EE882D /* FoocTrackerTests.swift */,
+				EE06326E1D14A29C00EE882D /* Info.plist */,
+			);
+			path = FoocTrackerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE0632531D14A29B00EE882D /* FoocTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0632711D14A29C00EE882D /* Build configuration list for PBXNativeTarget "FoocTracker" */;
+			buildPhases = (
+				EE0632501D14A29B00EE882D /* Sources */,
+				EE0632511D14A29B00EE882D /* Frameworks */,
+				EE0632521D14A29B00EE882D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoocTracker;
+			productName = FoocTracker;
+			productReference = EE0632541D14A29B00EE882D /* FoocTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE0632671D14A29C00EE882D /* FoocTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0632741D14A29C00EE882D /* Build configuration list for PBXNativeTarget "FoocTrackerTests" */;
+			buildPhases = (
+				EE0632641D14A29C00EE882D /* Sources */,
+				EE0632651D14A29C00EE882D /* Frameworks */,
+				EE0632661D14A29C00EE882D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE06326A1D14A29C00EE882D /* PBXTargetDependency */,
+			);
+			name = FoocTrackerTests;
+			productName = FoocTrackerTests;
+			productReference = EE0632681D14A29C00EE882D /* FoocTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE06324C1D14A29B00EE882D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Musta Rohman";
+				TargetAttributes = {
+					EE0632531D14A29B00EE882D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EE0632671D14A29C00EE882D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EE0632531D14A29B00EE882D;
+					};
+				};
+			};
+			buildConfigurationList = EE06324F1D14A29B00EE882D /* Build configuration list for PBXProject "FoocTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE06324B1D14A29B00EE882D;
+			productRefGroup = EE0632551D14A29B00EE882D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE0632531D14A29B00EE882D /* FoocTracker */,
+				EE0632671D14A29C00EE882D /* FoocTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE0632521D14A29B00EE882D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0632621D14A29B00EE882D /* LaunchScreen.storyboard in Resources */,
+				EE06325F1D14A29B00EE882D /* Assets.xcassets in Resources */,
+				EE06325D1D14A29B00EE882D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0632661D14A29C00EE882D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE0632501D14A29B00EE882D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE06325A1D14A29B00EE882D /* ViewController.swift in Sources */,
+				EE0632581D14A29B00EE882D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0632641D14A29C00EE882D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE06326D1D14A29C00EE882D /* FoocTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE06326A1D14A29C00EE882D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE0632531D14A29B00EE882D /* FoocTracker */;
+			targetProxy = EE0632691D14A29C00EE882D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE06325B1D14A29B00EE882D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE06325C1D14A29B00EE882D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE0632601D14A29B00EE882D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE0632611D14A29B00EE882D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE06326F1D14A29C00EE882D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE0632701D14A29C00EE882D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE0632721D14A29C00EE882D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoocTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoocTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE0632731D14A29C00EE882D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FoocTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoocTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE0632751D14A29C00EE882D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoocTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoocTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoocTracker.app/FoocTracker";
+			};
+			name = Debug;
+		};
+		EE0632761D14A29C00EE882D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FoocTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FoocTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoocTracker.app/FoocTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE06324F1D14A29B00EE882D /* Build configuration list for PBXProject "FoocTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE06326F1D14A29C00EE882D /* Debug */,
+				EE0632701D14A29C00EE882D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0632711D14A29C00EE882D /* Build configuration list for PBXNativeTarget "FoocTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0632721D14A29C00EE882D /* Debug */,
+				EE0632731D14A29C00EE882D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE0632741D14A29C00EE882D /* Build configuration list for PBXNativeTarget "FoocTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0632751D14A29C00EE882D /* Debug */,
+				EE0632761D14A29C00EE882D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE06324C1D14A29B00EE882D /* Project object */;
+}
